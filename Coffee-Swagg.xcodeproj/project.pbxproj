@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A1DBC17E21D74820002EC98E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBC17D21D74820002EC98E /* AppDelegate.swift */; };
-		A1DBC18021D74820002EC98E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBC17F21D74820002EC98E /* ViewController.swift */; };
+		A1DBC18021D74820002EC98E /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBC17F21D74820002EC98E /* CategoriesVC.swift */; };
 		A1DBC18321D74820002EC98E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DBC18121D74820002EC98E /* Main.storyboard */; };
 		A1DBC18521D74825002EC98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DBC18421D74825002EC98E /* Assets.xcassets */; };
 		A1DBC18821D74825002EC98E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DBC18621D74825002EC98E /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		A1DBC17A21D7481F002EC98E /* Coffee-Swagg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee-Swagg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DBC17D21D74820002EC98E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1DBC17F21D74820002EC98E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1DBC17F21D74820002EC98E /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		A1DBC18221D74820002EC98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1DBC18421D74825002EC98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1DBC18721D74825002EC98E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +38,9 @@
 		A1DBC17121D7481F002EC98E = {
 			isa = PBXGroup;
 			children = (
+				A1DBC19121D7E416002EC98E /* Controller */,
+				A1DBC19021D7E410002EC98E /* View */,
+				A1DBC18F21D7E409002EC98E /* Model */,
 				A1DBC17C21D7481F002EC98E /* Coffee-Swagg */,
 				A1DBC17B21D7481F002EC98E /* Products */,
 			);
@@ -55,13 +58,34 @@
 			isa = PBXGroup;
 			children = (
 				A1DBC17D21D74820002EC98E /* AppDelegate.swift */,
-				A1DBC17F21D74820002EC98E /* ViewController.swift */,
+				A1DBC17F21D74820002EC98E /* CategoriesVC.swift */,
 				A1DBC18121D74820002EC98E /* Main.storyboard */,
 				A1DBC18421D74825002EC98E /* Assets.xcassets */,
 				A1DBC18621D74825002EC98E /* LaunchScreen.storyboard */,
 				A1DBC18921D74825002EC98E /* Info.plist */,
 			);
 			path = "Coffee-Swagg";
+			sourceTree = "<group>";
+		};
+		A1DBC18F21D7E409002EC98E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1DBC19021D7E410002EC98E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1DBC19121D7E416002EC98E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1DBC18021D74820002EC98E /* ViewController.swift in Sources */,
+				A1DBC18021D74820002EC98E /* CategoriesVC.swift in Sources */,
 				A1DBC17E21D74820002EC98E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
