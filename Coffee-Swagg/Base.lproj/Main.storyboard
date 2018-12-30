@@ -89,17 +89,17 @@
                     <navigationItem key="navigationItem" title="Coffee Swagg" id="20Y-vH-Yhg"/>
                     <connections>
                         <outlet property="categoryTable" destination="HFu-v0-0m8" id="Zqq-9N-Ev8"/>
-                        <segue destination="iMZ-gg-iVV" kind="show" id="xPW-gO-oUY"/>
+                        <segue destination="iMZ-gg-iVV" kind="show" identifier="ProductsVC" id="xPW-gO-oUY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductsVC-->
         <scene sceneID="mqd-yS-UVF">
             <objects>
-                <viewController id="iMZ-gg-iVV" sceneMemberID="viewController">
+                <viewController id="iMZ-gg-iVV" customClass="ProductsVC" customModule="Coffee_Swagg" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lmo-mC-kO8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,7 +123,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="MBG-O8-80V" customClass="ProductCell" customModule="Coffee_Swagg" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="MBG-O8-80V" customClass="ProductCell" customModule="Coffee_Swagg" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="171" height="230"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -187,6 +187,9 @@ Graphics T-Shirt</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3ph-aW-f0T"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollection" destination="rSy-hV-8f6" id="BCp-oS-uiF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9gZ-AA-rlF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
