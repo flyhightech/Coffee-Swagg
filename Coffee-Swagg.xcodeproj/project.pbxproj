@@ -15,6 +15,8 @@
 		A1DBC19321D7E55F002EC98E /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBC19221D7E55F002EC98E /* CategoryCell.swift */; };
 		A1DF772C21D8A6980028B478 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF772B21D8A6980028B478 /* Category.swift */; };
 		A1DF772F21D8AAB00028B478 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF772E21D8AAB00028B478 /* DataService.swift */; };
+		A1DF773121D8BDBE0028B478 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF773021D8BDBE0028B478 /* ProductCell.swift */; };
+		A1DF773321D91EC00028B478 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF773221D91EC00028B478 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A1DBC19221D7E55F002EC98E /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		A1DF772B21D8A6980028B478 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A1DF772E21D8AAB00028B478 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A1DF773021D8BDBE0028B478 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		A1DF773221D91EC00028B478 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				A1DF772B21D8A6980028B478 /* Category.swift */,
+				A1DF773221D91EC00028B478 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				A1DBC19221D7E55F002EC98E /* CategoryCell.swift */,
+				A1DF773021D8BDBE0028B478 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 				A1DBC18021D74820002EC98E /* CategoriesVC.swift in Sources */,
 				A1DBC17E21D74820002EC98E /* AppDelegate.swift in Sources */,
 				A1DBC19321D7E55F002EC98E /* CategoryCell.swift in Sources */,
+				A1DF773121D8BDBE0028B478 /* ProductCell.swift in Sources */,
 				A1DF772C21D8A6980028B478 /* Category.swift in Sources */,
 				A1DF772F21D8AAB00028B478 /* DataService.swift in Sources */,
+				A1DF773321D91EC00028B478 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
